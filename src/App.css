@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(135deg, #6e9ee6 0%, #d74ed7 48%, #e0d4ec 100%);
+}
+
+.login-form, .signup-form {
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: rgb(14, 109, 130);
+  border-width: 0.1rem;
+  border-style: solid;
+  border-radius: 0.7rem;
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0 0.5rem;
+}
+
+input {
+  margin: 0.5rem 0;
+}
+
+button{
+  border: none;
+  padding: 0.5rem 1rem ;
+  margin: 1rem;
+  background-color: #2494c0;
+  color: white;
+  border-radius: 0.7rem;
+
+}
